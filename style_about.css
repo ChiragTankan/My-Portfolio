@@ -1,0 +1,270 @@
+body {
+    background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/8995.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    animation: slideleft 3s ease forwards;
+}
+
+@keyframes slideleft {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.div_nav {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    animation: slideup 6s ease forwards;
+}
+
+.home:hover {
+    border: 2px solid blueviolet;
+    box-shadow: 5px 5px 5px blueviolet, -5px -5px 5px blueviolet;
+    box-shadow: inset 0 0 10px blueviolet;
+    color: skyblue;
+}
+
+@keyframes slideup {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    20% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    60% {
+        transform: translateY(0px);
+    }
+
+    80% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.about {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    animation: slideup 4.5s ease forwards;
+}
+
+.about:hover {
+    border: 2px solid blueviolet;
+    box-shadow: 5px 5px 5px blueviolet, -5px -5px 5px blueviolet;
+    box-shadow: inset 0 0 10px blueviolet;
+    color: skyblue;
+}
+
+@keyframes slideup {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    20% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    60% {
+        transform: translateY(0px);
+    }
+
+    80% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.contact {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    animation: slideup 4s ease forwards;
+}
+
+.contact:hover {
+    border: 2px solid blueviolet;
+    box-shadow: 5px 5px 5px blueviolet, -5px -5px 5px blueviolet;
+    box-shadow: inset 0 0 10px blueviolet;
+    color: skyblue;
+    animation: slideup 2s ease forwards;
+}
+
+@keyframes slideup {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    20% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    60% {
+        transform: translateY(0px);
+    }
+
+    80% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.head {
+    font-size: 40px;
+    color: #fff;
+    text-shadow: 2px 2px 2px skyblue;
+    position: absolute;
+    top: 4%;
+    left: 40%;
+}
+
+.about_me {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    right: 20%;
+    top: 20%;
+    border: 2px solid #32424a;
+    animation: slidedown 10s ease forwards;
+}
+
+@keyframes slidedown {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+
+    20% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    40% {
+        transform: translateX(20px);
+    }
+
+    60% {
+        transform: translateX(0px);
+    }
+
+    80% {
+        transform: translateX(10px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.h2 {
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: 30px;
+}
+
+h3 {
+    color: #fff;
+    position: relative;
+    left: 10%;
+    font-family: Papyrus;
+}
+
+.nav {
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_div {
+    width: 40%;
+    height: 550px;
+    position: fixed;
+    left: 0%;
+    border-radius: 5%;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    animation: 12s img 1;
+}
+
+@keyframes img {
+    0% {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+}
