@@ -1,3 +1,3 @@
 # My-Portfolio
 
-Full pGe view == https://codewithtankan.github.io/My-Portfolio/
+Full page view == https://codewithtankan.github.io/My-Portfolio/
